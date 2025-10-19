@@ -10,7 +10,12 @@ public class EjerciciosT2 {
         //operacionesEjercicio.ejercicio3(100);
         //operacionesEjercicio.ejercicio4();
         //operacionesEjercicio.ejercicio5();
-        operacionesEjercicio.ejercicio6();
+        //operacionesEjercicio.ejercicio6();
+        //operacionesEjercicio.ejercicio7();
+        //operacionesEjercicio.ejercicio8();
+        //operacionesEjercicio.ejercicio9();
+        operacionesEjercicio.ejercicio10();
+
     }
 
 }
