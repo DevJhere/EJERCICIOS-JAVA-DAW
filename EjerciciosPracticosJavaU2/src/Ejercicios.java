@@ -35,7 +35,7 @@ public class Ejercicios {
                         División: %d\s
                         Modulo: %d\s""", suma , resta , multiplicacion , division, modulo);
 
-        lectorTeclado.close();
+        lectorTeclado = null;
     }
 
     public void  ejercicio2(){
@@ -67,7 +67,7 @@ public class Ejercicios {
         resultadoComparacion = numeroUno >= numeroDos;
         System.out.printf("¿Numero %d es mayor que %d? : %b\n", numeroUno, numeroDos, resultadoComparacion);
 
-        lectorTeclado.close();
+        lectorTeclado = null;
     }
 
     public void ejercicio3 (int valorInicial) {
@@ -102,7 +102,7 @@ public class Ejercicios {
             System.out.printf("El número %d es impar (resto al dividir entre 2: %d)%n", parImpar, resto);
         }
 
-        lectorTeclado.close();
+        lectorTeclado = null;
     }
 
     public void ejercicio5 () {
@@ -125,7 +125,7 @@ public class Ejercicios {
 
         System.out.println("¿Puedes Alquilar un coche?: " + resultadoLogicoAnd);
 
-        lectorTeclado.close();
+        lectorTeclado = null;
     }
 
     public void ejercicio6 () {
@@ -148,7 +148,7 @@ public class Ejercicios {
         System.out.printf("Descuento (%.1f%%): %.1f€\n", valorDescuento, precioDescuento );
         System.out.printf("Precio Final: %.1f€\n", precioFinal);
 
-        lectorTeclado.close();
+        lectorTeclado = null;
     }
 
     public void ejercicio7 () {
@@ -178,7 +178,7 @@ public class Ejercicios {
         System.out.printf("¿Tienes descuento de estudiante?: %b%n", descuentoEstudiante);
         System.out.printf("¿Tienes descuento especial?: %b%n", descuentoEspecial);
 
-        lectorTeclado.close();
+        lectorTeclado = null;
     }
 
     public void ejercicio8 () {
@@ -205,9 +205,9 @@ public class Ejercicios {
         //Mostramos resultados
         System.out.printf("Suma de los tres números: %d%n", suma);
         System.out.printf("Promedio: %.1f%n", promedio);
-        System.out.printf("Operación Combinada: %.1f", opCombinada);
+        System.out.printf("Operación Combinada: %.1f%n", opCombinada);
 
-        lectorTeclado.close();
+        lectorTeclado = null;
     }
 
     public void ejercicio9 () {
@@ -240,7 +240,7 @@ public class Ejercicios {
         System.out.printf("¿Tengo notable?: %b%n", notable);
         System.out.printf("¿Tengo sobresaliente?: %b%n", sobresaliente);
 
-        lectorTeclado.close();
+        lectorTeclado = null;
     }
 
     public void ejercicio10 () {
