@@ -1,5 +1,4 @@
 package ejercicios_arrays2;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
