@@ -18,7 +18,7 @@ public class Main {
         if (!ls.exists()){
             System.out.println("Directorio no existe. Se creó con éxito");
             boolean creado = ls.mkdirs(); //true
-            if(creado) System.out.println("✅ Carpeta 'mis_documentos' creada. ¡Métele archivos y vuelve a ejecutar!");
+            if(creado) System.out.println("Carpeta 'mis_documentos' creada. ¡Métele archivos y vuelve a ejecutar!");
 
         }
 
