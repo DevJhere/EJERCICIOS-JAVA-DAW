@@ -1,0 +1,5 @@
+Somos desarrolladores de Java. Un lenguaje de programación
+un tanto especial, ya que Java: es robusto, fuertemente tipado
+y te obliga a seguir unos pasos estructurados.
+Por eso Java es uno de los lenguajes de programación que se debe
+estudiar cuando se empieza. I love u Java

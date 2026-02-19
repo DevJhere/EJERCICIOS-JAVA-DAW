@@ -1,0 +1,9 @@
+There are a number of situations in software engineering when it is important for disparate groups of programmers to agree
+to a "contract" that spells out how their software interacts. Each group should be able to write their code without any
+knowledge of how the other group's code is written. Generally speaking, interfaces are such contracts.
+
+For example, imagine a futuristic society where computer-controlled robotic cars transport passengers through city streets
+without a human operator. Automobile manufacturers write software (Java, of course) that operates the automobile—stop,
+start, accelerate, turn left, and so forth. Another industrial group, electronic guidance instrument manufacturers,
+make computer systems that receive GPS (Global Positioning System) position data and wireless transmission of traffic
+conditions and use that information to drive the car.
