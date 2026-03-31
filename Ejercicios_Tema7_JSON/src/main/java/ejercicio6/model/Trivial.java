@@ -1,0 +1,14 @@
+package ejercicio6.model;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Trivial {
+    private long responseCode;
+    private List<Result> results;
+
+}

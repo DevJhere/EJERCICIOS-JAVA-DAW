@@ -1,0 +1,20 @@
+{
+  "id": 94,
+  "name": "gengar",
+  "height": 15,
+  "weight": 405,
+  "types": [
+    {
+      "type": {
+        "name": "ghost",
+        "url": "https://pokeapi.co/api/v2/type/8/"
+      }
+    },
+    {
+      "type": {
+        "name": "poison",
+        "url": "https://pokeapi.co/api/v2/type/4/"
+      }
+    }
+  ]
+}

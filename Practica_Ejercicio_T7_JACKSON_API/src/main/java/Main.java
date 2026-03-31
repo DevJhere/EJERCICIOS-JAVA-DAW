@@ -10,10 +10,5 @@ public class Main {
 
         Pokemon miPokemon = gestorPokemon.obtenerPokemon("Pikachu");
         System.out.println(miPokemon);
-
-        //Guardamos el pokemon
-        if (miPokemon != null){
-            gestorPokemon.guardarPokemon(miPokemon);
-        }
     }
 }

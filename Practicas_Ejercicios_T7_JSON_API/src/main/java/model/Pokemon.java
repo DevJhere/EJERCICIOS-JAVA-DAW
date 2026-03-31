@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Setter
 @Getter
 @AllArgsConstructor
@@ -16,6 +18,7 @@ public class Pokemon {
     private String name;
     private int height;
     private int weight;
+    private List<TypeSlot> types;
 
     @Override
     public String toString() {

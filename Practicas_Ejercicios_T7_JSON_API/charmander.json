@@ -1,0 +1,14 @@
+{
+  "id": 4,
+  "name": "charmander",
+  "height": 6,
+  "weight": 85,
+  "types": [
+    {
+      "type": {
+        "name": "fire",
+        "url": "https://pokeapi.co/api/v2/type/10/"
+      }
+    }
+  ]
+}
